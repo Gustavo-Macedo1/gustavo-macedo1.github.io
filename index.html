@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Gustavo Macedo — projetos em IA generativa, agentes, LLMs e machine learning.">
+  <meta name="theme-color" content="#07110f">
+  <meta property="og:title" content="Gustavo Macedo — IA & Machine Learning">
+  <meta property="og:description" content="Agentes, sistemas RAG, modelos preditivos e pesquisa aplicada.">
+  <meta property="og:type" content="website">
+  <title>Gustavo Macedo — IA & Machine Learning</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Gustavo Macedo, início">
+      <span class="brand-mark" aria-hidden="true">GM</span>
+      <span>Gustavo Macedo</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+      <span></span><span></span><span></span><span class="sr-only">Abrir menu</span>
+    </button>
+    <nav id="menu" class="nav" aria-label="Navegação principal" data-menu>
+      <a href="#sobre">Sobre</a>
+      <a href="#llms">GenAI</a>
+      <a href="#machine-learning">Machine Learning</a>
+      <a href="#engenharia">Engenharia & Dados</a>
+      <a href="#materiais">Publicações</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> Aberto a oportunidades em GenAI</p>
+        <h1 id="hero-title">Eu construo sistemas que transformam <em>inteligência</em> em impacto.</h1>
+        <p class="hero-lead">Ciência da Computação na UnB, com experiência prática em agentes, RAG, fine-tuning e machine learning aplicado a problemas reais.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#llms">Explorar projetos <span aria-hidden="true">↘</span></a>
+          <a class="button ghost" href="https://github.com/Gustavo-Macedo1/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <ul class="hero-stats" aria-label="Destaques">
+          <li><strong>7</strong><span>projetos</span></li>
+          <li><strong>+90%</strong><span>acurácia reportada em projeto RAG</span></li>
+          <li><strong>3º</strong><span>lugar nacional · DatathONS</span></li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal" aria-label="Mapa das áreas de atuação">
+        <div class="orbit orbit-a" aria-hidden="true"></div>
+        <div class="orbit orbit-b" aria-hidden="true"></div>
+        <div class="core"><span>AI</span><small>systems</small></div>
+        <div class="node node-1"><i></i>RAG</div>
+        <div class="node node-2"><i></i>Agents</div>
+        <div class="node node-3"><i></i>LLMs</div>
+        <div class="node node-4"><i></i>ML</div>
+        <div class="code-float" aria-hidden="true"><span>model</span>.learn(<b>context</b>)</div>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span>Scroll</span><i></i></a>
+    </section>
+
+    <section class="section about" id="sobre" aria-labelledby="about-title">
+      <div class="section-index reveal"><span>01</span><p>Quem eu sou</p></div>
+      <div class="about-main reveal">
+        <p class="section-kicker">Engenharia com curiosidade científica</p>
+        <h2 id="about-title">Da pesquisa à aplicação: IA com contexto, rigor e propósito.</h2>
+        <div class="about-columns">
+          <p>Sou <strong>Gustavo de Oliveira Macedo</strong>, graduando em Ciência da Computação pela Universidade de Brasília. Atuo em Inteligência Artificial e Machine Learning, construindo soluções que conectam pesquisa, software e necessidades de negócio.</p>
+          <p>Minha trajetória passa por <strong>ANEEL, BRISA, Instituto Hardware BR, RNP e UnB</strong>. Gosto de problemas em que modelos precisam conversar com dados, ferramentas e pessoas — com atenção à segurança, avaliação e experiência de uso.</p>
+        </div>
+        <div class="recognition">
+          <p>Reconhecimento & comunidade</p>
+          <ul>
+            <li><span>01</span><strong>3º lugar no Brasil</strong><small>DatathONS 2024</small></li>
+            <li><span>02</span><strong>Hackathon Llama Impact</strong><small>LATAM 2024</small></li>
+            <li><span>03</span><strong>Kaggle NLP Disaster</strong><small>Score 0.844</small></li>
+            <li><span>04</span><strong>1º lugar no ranking</strong><small>Residência TIC BRISA</small></li>
+          </ul>
+        </div>
+      </div>
+      <aside class="about-aside reveal">
+        <div class="terminal-card">
+          <div class="terminal-top"><i></i><i></i><i></i><span>profile.py</span></div>
+          <pre><code><span class="c-purple">class</span> <span class="c-green">Gustavo</span>:
+  focus = [
+    <span class="c-yellow">"Generative AI"</span>,
+    <span class="c-yellow">"AI Agents"</span>,
+    <span class="c-yellow">"Machine Learning"</span>
+  ]
+
+  def <span class="c-blue">build</span>(self, idea):
+    <span class="c-purple">return</span> idea.to_impact()</code></pre>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/gustavo-macedo-261199x/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><b>Conectar ↗</b></a>
+          <a href="https://huggingface.co/gustavomacedo" target="_blank" rel="noopener noreferrer"><span>Hugging Face</span><b>Modelos ↗</b></a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section projects-section" id="llms" aria-labelledby="llm-title">
+      <div class="section-heading reveal">
+        <div><p class="section-kicker">02 — Projetos com LLMs</p><h2 id="llm-title">Sistemas generativos<br>que fazem trabalho real.</h2></div>
+        <p>Do raciocínio multiagente ao acesso seguro a dados e ferramentas: aplicações orientadas a contexto, controle e valor para o usuário.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-image">
+            <img src="assets/projects/ifood/cover.png" alt="Interface do sistema de recomendação de refeições" loading="lazy">
+            <span class="project-number">01</span><span class="status progress">Em andamento</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Projeto próprio · contexto iFood</span><span>GenAI / Multiagente</span></div>
+            <h3>Sistema Multiagente de Recomendação de Refeições</h3>
+            <p>Do pedido em linguagem natural à recomendação consultada em SQLite. Dois agentes especializados, guardrails contra prompt e SQL injection, entrada por voz e respostas estruturadas.</p>
+            <ul class="tags"><li>LangGraph</li><li>LangChain</li><li>Pydantic</li><li>SQLite</li><li>Streamlit</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/Gustavo-Macedo1/Sistema-de-Recomendacao-iFood/tree/main" target="_blank" rel="noopener noreferrer">Ver repositório <span>↗</span></a>
+              <button class="gallery-button" type="button" data-gallery='["assets/projects/ifood/screen-1.png","assets/projects/ifood/screen-2.png","assets/projects/ifood/screen-3.png"]' data-title="Sistema de Recomendação — galeria">Ver galeria <span>3</span></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/aneel/cover.png" alt="Identidade visual do agente especialista da ANEEL" loading="lazy"><span class="project-number">02</span><span class="status private">Case privado</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>ANEEL</span><span>RAG / Fine-tuning</span></div>
+            <h3>Agente Especialista no Setor Elétrico</h3>
+            <p>Fine-tuning de mais de 15 modelos e arquitetura RAG sobre documentos regulatórios. A solução obteve acurácia reportada superior a 90% em avaliação prática com ouvidores especialistas.</p>
+            <ul class="tags"><li>Unsloth</li><li>LoRA</li><li>Pinecone</li><li>LangChain</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/Gustavo-Macedo1/FineTuning-Agente-Especialista-ANEEL" target="_blank" rel="noopener noreferrer">Notebooks públicos <span>↗</span></a>
+              <button class="gallery-button" type="button" data-gallery='["assets/projects/aneel/screen-1.png","assets/projects/aneel/screen-2.png"]' data-title="Agente ANEEL — galeria">Galeria <span>2</span></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/mcp-medical/cover.png" alt="Representação do servidor MCP para equipamentos médicos" loading="lazy"><span class="project-number">03</span><span class="status private">POC pública</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>Instituto Hardware BR</span><span>Agents / MCP</span></div>
+            <h3>Servidor MCP para Equipamentos Médicos</h3>
+            <p>Prova de conceito com FastMCP que expõe ferramentas sobre MySQL a agentes LlamaIndex. A POC validou o caminho para uma aplicação móvel privada de controle por voz.</p>
+            <ul class="tags"><li>FastMCP</li><li>LlamaIndex</li><li>MySQL</li><li>Ollama</li></ul>
+            <div class="project-actions"><a href="https://github.com/Gustavo-Macedo1/MCP-Teste-HBr-CIIA-2" target="_blank" rel="noopener noreferrer">Ver POC <span>↗</span></a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section alt" id="machine-learning" aria-labelledby="ml-title">
+      <div class="section-heading reveal">
+        <div><p class="section-kicker">03 — Machine Learning</p><h2 id="ml-title">Modelos aplicados a<br>sinais do mundo real.</h2></div>
+        <p>Séries temporais hidrológicas e redes 5G: pipelines completos, avaliação cuidadosa e interfaces que aproximam modelos de decisões humanas.</p>
+      </div>
+      <div class="project-grid two">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/aquavis/cover.jpeg" alt="Logo do AquaVIS" loading="lazy"><span class="project-number">01</span><span class="status done">Finalizado</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>UnB · Iniciação Tecnológica</span><span>Anomaly Detection</span></div>
+            <h3>AquaVIS — Anomalias em Séries Hidrológicas</h3>
+            <p>Aplicação Streamlit para detectar, revisar e corrigir anomalias em cotas de rios da bacia amazônica. Une K-Means, AutoEncoders e interpolação em um fluxo supervisionado.</p>
+            <ul class="tags"><li>PyOD</li><li>Darts</li><li>AutoEncoder</li><li>Streamlit</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/Gustavo-Macedo1/AquaVIS" target="_blank" rel="noopener noreferrer">Ver projeto <span>↗</span></a>
+              <button class="gallery-button" type="button" data-gallery='["assets/projects/aquavis/screen-1.png","assets/projects/aquavis/screen-2.png","assets/projects/aquavis/screen-3.png","assets/projects/aquavis/screen-6.png","assets/projects/aquavis/screen-7.png","assets/projects/aquavis/screen-8.png","assets/projects/aquavis/screen-9.png"]' data-title="AquaVIS — galeria">Galeria <span>7</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/lstm-5g/cover.png" alt="Representação de uma rede 5G com modelo LSTM" loading="lazy"><span class="project-number">02</span><span class="status progress">Em andamento</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>Projeto nacional · RNP</span><span>Forecasting</span></div>
+            <h3>Previsão de Métricas 5G com LSTM</h3>
+            <p>Pipeline temporal que aprende RSRP e SINR de simulações OpenRAN no ns-3, apoiando futuras decisões de handover em xApps com tuning via Optuna.</p>
+            <ul class="tags"><li>PyTorch</li><li>LSTM</li><li>Optuna</li><li>OpenRAN</li></ul>
+            <div class="project-actions"><a href="https://github.com/Gustavo-Macedo1/OpenRAN" target="_blank" rel="noopener noreferrer">Ver projeto <span>↗</span></a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="engenharia" aria-labelledby="eng-title">
+      <div class="section-heading reveal">
+        <div><p class="section-kicker">04 — Engenharia & Dados</p><h2 id="eng-title">Fundamentos que<br>sustentam a IA.</h2></div>
+        <p>Software bem organizado, colaboração e leitura crítica de dados são parte do mesmo trabalho: entregar sistemas confiáveis.</p>
+      </div>
+      <div class="project-grid two compact">
+        <article class="project-card horizontal reveal">
+          <div class="project-image"><img src="assets/projects/roboconnection/cover.jpg" alt="Equipe de robótica UnBeatables" loading="lazy"><span class="status done">Finalizado</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>BRISA / UnBeatables</span><span>Software Engineering</span></div>
+            <h3>RoboConnection</h3>
+            <p>Hub técnico para a equipe de futebol de robôs humanoides, entregue com Scrum, Kanban e documentação contínua.</p>
+            <ul class="tags"><li>MkDocs</li><li>GitHub Projects</li><li>Scrum</li></ul>
+            <div class="project-actions"><a href="https://github.com/Gustavo-Macedo1/03_Robotica" target="_blank" rel="noopener noreferrer">Ver projeto <span>↗</span></a><button class="gallery-button" type="button" data-gallery='["assets/projects/roboconnection/screen-1.png","assets/projects/roboconnection/screen-2.png","assets/projects/roboconnection/screen-3.png"]' data-title="RoboConnection — galeria">Galeria <span>3</span></button></div>
+          </div>
+        </article>
+        <article class="project-card horizontal reveal">
+          <div class="project-image"><img src="assets/projects/fipe/cover.png" alt="Visualização do estudo da Tabela FIPE" loading="lazy"><span class="status done">Finalizado</span></div>
+          <div class="project-body">
+            <div class="project-meta"><span>Projeto próprio</span><span>Data Analysis</span></div>
+            <h3>Análise Automotiva — FIPE 2022</h3>
+            <p>Análise exploratória de 290 mil registros para comparar preço, motorização, câmbio e combustível entre marcas populares e de luxo.</p>
+            <ul class="tags"><li>Pandas</li><li>Scikit-learn</li><li>Matplotlib</li></ul>
+            <div class="project-actions"><a href="https://github.com/Gustavo-Macedo1/Analise-de-dados-FIPE" target="_blank" rel="noopener noreferrer">Ver análise <span>↗</span></a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section materials" id="materiais" aria-labelledby="materials-title">
+      <div class="section-heading reveal">
+        <div><p class="section-kicker">05 — Autoria técnica</p><h2 id="materials-title">Pesquisa que vira<br>conhecimento compartilhado.</h2></div>
+        <p>Artigos, guias e documentos produzidos ao longo de projetos de pesquisa e desenvolvimento.</p>
+      </div>
+      <div class="materials-list">
+        <a class="material reveal" href="assets/materials/aquavis-cobicet.pdf" target="_blank">
+          <span class="material-index">01</span><div><p>Artigo em congresso · 2025</p><h3>AquaVIS: Detecção e Correção de Anomalias</h3><span>Aplicação de IA para qualificação de séries temporais hidrológicas, publicada nos anais do VI CoBICET.</span></div><ul><li>Streamlit</li><li>IA aplicada</li></ul><i>PDF ↗</i>
+        </a>
+        <a class="material reveal" href="assets/materials/ia-identificacao-anomalias.pdf" target="_blank">
+          <span class="material-index">02</span><div><p>Artigo técnico · 12 páginas</p><h3>IA na Identificação de Anomalias</h3><span>Comparação de quatro modelos Darts e PyOD sobre dados hidrológicos da bacia amazônica.</span></div><ul><li>PyOD</li><li>Darts</li></ul><i>PDF ↗</i>
+        </a>
+        <a class="material reveal" href="assets/materials/guia-fundamental-nlp.ipynb" download>
+          <span class="material-index">03</span><div><p>Guia didático · ANEEL</p><h3>Guia Fundamental de NLP</h3><span>Material de capacitação do time: redes neurais, LLMs, transformers, tokenização e embeddings.</span></div><ul><li>NLP</li><li>Educação</li></ul><i>IPYNB ↓</i>
+        </a>
+        <a class="material reveal" href="assets/materials/handover-5g.pdf" target="_blank">
+          <span class="material-index">04</span><div><p>Documento técnico · 8 páginas</p><h3>Handover em Redes 5G</h3><span>Conceitos, classificações, métricas RSRP/RSRQ/SINR e perspectivas de otimização com ML.</span></div><ul><li>5G</li><li>OpenRAN</li></ul><i>PDF ↗</i>
+        </a>
+        <a class="material reveal" href="assets/materials/precificacao-veiculos.pdf" target="_blank">
+          <span class="material-index">05</span><div><p>Artigo técnico · 4 páginas</p><h3>Precificação de Veículos no Brasil</h3><span>Estudo comparativo da Tabela FIPE entre marcas populares e de luxo.</span></div><ul><li>Data Science</li><li>FIPE</li></ul><i>PDF ↗</i>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <div class="contact-orbit" aria-hidden="true"></div>
+      <p class="section-kicker reveal">Vamos construir algo relevante?</p>
+      <h2 id="contact-title" class="reveal">Ideias interessantes começam<br>com uma boa conversa.</h2>
+      <p class="reveal">Estou aberto a estágios e oportunidades em IA generativa, agentes e machine learning.</p>
+      <a class="button primary reveal" href="mailto:gustavoomacedo@outlook.com">Fale comigo <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio"><span class="brand-mark">GM</span><span>Gustavo Macedo</span></a>
+    <p>Ciência da Computação · UnB<br>Brasília, DF</p>
+    <div><a href="https://github.com/Gustavo-Macedo1/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/gustavo-macedo-261199x/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://huggingface.co/gustavomacedo" target="_blank" rel="noopener noreferrer">Hugging Face ↗</a></div>
+    <small>© <span data-year></span> Gustavo Macedo</small>
+  </footer>
+
+  <dialog class="gallery" data-gallery-modal aria-labelledby="gallery-title">
+    <button class="gallery-close" type="button" aria-label="Fechar galeria" data-gallery-close>×</button>
+    <div class="gallery-stage"><button type="button" class="gallery-nav prev" aria-label="Imagem anterior" data-gallery-prev>←</button><img src="" alt="" data-gallery-image><button type="button" class="gallery-nav next" aria-label="Próxima imagem" data-gallery-next>→</button></div>
+    <div class="gallery-footer"><h2 id="gallery-title" data-gallery-title></h2><span data-gallery-count></span></div>
+  </dialog>
+</body>
+</html>
